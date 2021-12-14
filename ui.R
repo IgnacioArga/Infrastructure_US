@@ -10,8 +10,8 @@ dashboardPage(
   
   dashboardSidebar(
     sidebarMenu(menuItem("Dashboard",id = "princ",icon = icon("tachometer-alt"),
-                         menuSubItem("Global",icon = icon("dollar-sign"),tabName = "global"),
-                         menuSubItem("Category",icon = icon("globe-americas"),tabName = "category")),
+                         menuSubItem("Global",icon = icon("city"),tabName = "global"),
+                         menuSubItem("Category",icon = icon("building"),tabName = "category")),
                 menuItem("States",tabName = "states",icon = icon("globe-americas"))
                 ),
     
